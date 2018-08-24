@@ -6,14 +6,14 @@ ElasticSearch needs to be installed on the system. To do so, [follow this link](
 
 For setting the port of ElasticSearch manually, you can edit the port_no variable in server.py.  
 
-**Run the following commands to activate the Virtual Environment and start the server:  
+**Run the following commands to activate the Virtual Environment and start the server:**  
 ```
 cd Rest-API-Address-Book
 .\env\Scripts\activate
 python server.py
 ```
 
-**In another Powershell Window, run the following commands to run the test cases:  
+**In another Powershell Window, run the following commands to run the test cases:**  
 ```
 cd Rest-API-Address-Book
 .\env\Scripts\activate
