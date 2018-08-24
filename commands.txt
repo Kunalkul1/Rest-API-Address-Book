@@ -1,0 +1,5 @@
+1. In the project directory, run py -m virtualenv env
+2. Run .\env\Scripts\activate
+3. pip install requests
+4. pip install flask
+5. pip install elasticsearch
