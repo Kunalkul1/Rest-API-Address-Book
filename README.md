@@ -6,6 +6,8 @@ ElasticSearch needs to be installed on the system. To do so, [follow this link](
 
 For setting the host/port of ElasticSearch manually, you can edit the host/port_no variable in server.py.  
 
+***Before starting the server, ElasticSearch needs to be running on the system.***
+
 **Run the following commands to activate the Virtual Environment and start the server:**  
 ```
 cd Rest-API-Address-Book
