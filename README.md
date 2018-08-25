@@ -25,11 +25,11 @@ python test.py
 ```
 
 ## Functionality
-The endpoints in the API are as follows:
+The endpoints in the API are as follows:  
 **1. GET /contact?pageSize={}&page={}&query={}**  
 This endpoint provides a listing of all contacts. If the pageSize parameter is specified, only those number of results are shown. By default, the field in the query parameter is "name". If a different field is specified, it is mapped to that field. For e.g. query=number:2 will set the number field of the entry to 2.  
 **2. POST /contact**  
-This endpoint creates the contact. The name is checked for uniqueness and a new contact is only created if the name is unique.
+This endpoint creates the contact. The name is checked for uniqueness and a new contact is only created if the name is unique.  
 **3. GET /contact/{name}**  
 This endpoint returns the contact by a unique name.  
 **4. PUT /contact/{name}**  
